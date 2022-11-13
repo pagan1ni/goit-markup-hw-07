@@ -81,21 +81,22 @@
     color: #FFFFFF;
     transition-duration: var(--time--);
     transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus{
+        background-color: #2196F3;
+        color: #FFFFFF;
+    }
 }
 
-.footer-soc-link__link:hover,
-.footer-soc-link__link:focus{
-    background-color: #2196F3;
-    color: #FFFFFF;
-}
+
 
 .footer-soc-link__icon{
     fill: currentColor;
     transition-duration: var(--time--);
     transition-timing-function: var(--timing-function);
+    &:hover,
+    &:focus{
+        fill: #FFFFFF;
+    }
 }
 
-.footer-soc-link__icon:hover,
-.footer-soc-link__icon:focus{
-    fill: #FFFFFF;
-}

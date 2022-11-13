@@ -311,7 +311,6 @@ body {
   padding-top: var(--pading-section);
   padding-bottom: var(--pading-section);
   background-color: var(--herov-color);
-  margin-bottom: var(--pading-section);
 }
 
 .team__list {
@@ -398,9 +397,7 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
-.team__soc-link:hover,
-.team__soc-link:focus {
+.team__soc-link:hover, .team__soc-link:focus {
   background-color: #2196F3;
   color: #FFFFFF;
 }
@@ -457,9 +454,7 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
-.client__link-icon:hover,
-.client__link-icon:focus {
+.client__link-icon:hover, .client__link-icon:focus {
   border-color: #2196F3;
   color: #2196F3;
 }
@@ -568,9 +563,7 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
-.footer-soc-link__link:hover,
-.footer-soc-link__link:focus {
+.footer-soc-link__link:hover, .footer-soc-link__link:focus {
   background-color: #2196F3;
   color: #FFFFFF;
 }
@@ -582,9 +575,7 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
-.footer-soc-link__icon:hover,
-.footer-soc-link__icon:focus {
+.footer-soc-link__icon:hover, .footer-soc-link__icon:focus {
   fill: #FFFFFF;
 }
 
@@ -704,9 +695,7 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
-.btn-list__btn:hover,
-.btn-list__btn:focus {
+.btn-list__btn:hover, .btn-list__btn:focus {
   color: var(--herov-color);
   background-color: var(--hover-focus);
   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -733,7 +722,6 @@ body {
   -webkit-transition-timing-function: var(--timing-function);
           transition-timing-function: var(--timing-function);
 }
-
 .img-list__item:hover {
   -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
@@ -883,7 +871,6 @@ body {
   border-radius: 4px;
   outline: none;
 }
-
 .contact-form__input:focus {
   border-color: var(--hover-focus);
   -webkit-transition-duration: var(--time--);

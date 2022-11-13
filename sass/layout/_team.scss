@@ -2,7 +2,7 @@
     padding-top: var(--pading-section);
     padding-bottom: var(--pading-section);
     background-color: var(--herov-color);
-    margin-bottom: var(--pading-section);
+    // margin-bottom: var(--pading-section);
 }
 
 .team__list{
@@ -75,12 +75,11 @@
         color: #AFB1B8;
         transition-duration: var(--time--);
         transition-timing-function: var(--timing-function);
-}
-
-.team__soc-link:hover,
-.team__soc-link:focus{
-        background-color: #2196F3;
-        color: #FFFFFF;
+        &:hover,
+        &:focus{
+                background-color: #2196F3;
+                color: #FFFFFF;
+        }
 }
 
 .team__soc-icon{
